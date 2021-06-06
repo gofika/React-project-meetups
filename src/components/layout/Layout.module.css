@@ -1,0 +1,9 @@
+.main {
+  background-color: rgb(245, 245, 245);
+  padding: 2rem 0;
+}
+.main h1 {
+  text-align: center;
+  margin-left: -20rem;
+  font-size: 30px;
+}
