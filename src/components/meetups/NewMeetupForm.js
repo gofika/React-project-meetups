@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import classes from "./NewMeetupForm.module.css";
 import Card from "../ui/Card.js";
 
-const NewMeetupForm = () => {
+const NewMeetupForm = (props) => {
   const titleInput = useRef();
   const imageInput = useRef();
   const addressInput = useRef();
@@ -22,7 +22,7 @@ const NewMeetupForm = () => {
       address: enteredAddress,
       description: enteredDescription,
     };
-    console.log(meetupData);
+    props.onAddMeetup(meetupData);
   };
   return (
     <Card>
@@ -49,7 +49,7 @@ const NewMeetupForm = () => {
           ></textarea>
         </div>
         <div className={classes.action}>
-          <button>Add New Meetup</button>
+          <button onClick={submitHandler}>Add New Meetup</button>
         </div>
       </form>
     </Card>

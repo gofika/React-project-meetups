@@ -34,4 +34,5 @@ textarea {
   outline-style: none;
   border-radius: 5px;
   border: none;
+  cursor: pointer;
 }
