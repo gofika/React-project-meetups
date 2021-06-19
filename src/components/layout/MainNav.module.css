@@ -26,3 +26,10 @@
   color: white;
   font-size: 20px;
 }
+.badge {
+  background-color: rgb(168, 3, 94);
+  color: white;
+  padding: 2px 18px;
+  border-radius: 10px;
+  margin-left: 8px;
+}

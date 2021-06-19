@@ -22,9 +22,7 @@ export function FavouritesContextProvider(props) {
     });
   }
   function itemIsFavourite(meetupId) {
-    setUserFavourites((prevUserFavourites) => {
-      return prevUserFavourites.some((meetup) => meetup.id === meetupId);
-    });
+    return userFavourites.some((meetup) => meetup.id === meetupId);
   }
 
   const context = {
