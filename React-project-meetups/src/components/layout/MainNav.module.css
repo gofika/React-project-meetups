@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-color: rgb(109, 0, 60);
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+  padding: 1rem 8rem;
+  align-items: center;
+}
+.logo {
+  color: white;
+  font-size: 30px;
+  font-weight: bolder;
+}
+.header li {
+  padding-left: 3rem;
+  list-style: none;
+  display: inline;
+}
+.header a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.badge {
+  background-color: rgb(168, 3, 94);
+  color: white;
+  padding: 2px 18px;
+  border-radius: 10px;
+  margin-left: 8px;
+}

@@ -1,0 +1,27 @@
+.image {
+  width: 600px;
+  height: 300px;
+  object-fit: cover;
+}
+.title {
+  margin: 1rem 0;
+}
+.address {
+  margin: 1rem 0;
+}
+.description {
+  margin: 1rem 0;
+  padding: 0 1rem;
+}
+.btn {
+  margin: 2rem 0;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid rgb(151, 144, 144);
+  color: rgb(172, 8, 98);
+  background-color: white;
+}
+.btn:hover {
+  background-color: rgb(172, 8, 98);
+  color: white;
+}
